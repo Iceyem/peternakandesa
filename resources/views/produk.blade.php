@@ -62,12 +62,12 @@
     <div class="container mt-4">
       <div class="row">
         <div class="col-md-3">
-          <select id="categoryFilter" class="form-select" aria-label="Filter by category">
-            <option value="all" selected>Semua Kategori</option>
-            <option value="sapibali">Sapi Bali</option>
-            <option value="kambingdomba">Kambing Domba</option>
-            <option value="telurpuyuh">Telur Puyuh</option>
-          </select>
+        <select id="categoryFilter" class="form-select simple-select" aria-label="Filter by category">
+          <option value="all" selected>Semua Kategori</option>
+          <option value="sapibali">Sapi Bali</option>
+          <option value="kambingdomba">Kambing Domba</option>
+          <option value="telurpuyuh">Telur Puyuh</option>
+        </select>
         </div>
       </div>
     </div>
@@ -124,65 +124,65 @@
 
   <!-- Fetch and display products -->
   <script>
-    async function fetchProducts(url, elementId, imageName, whatsappNumber, hasIsi = false) {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        const text = await response.text();
-        const startIndex = text.indexOf('[');
-        const cleanJson = text.substring(startIndex);
-        const data = JSON.parse(cleanJson);
-        const productList = document.getElementById(elementId);
-        productList.innerHTML = '';
-        data.forEach(product => {
-          const productItem = document.createElement('div');
-          productItem.classList.add('col-md-4', 'mb-4');
-          productItem.innerHTML = `
-            <div class="card-container">
-              <div class="card">
-                <img src="assets/${imageName}.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">${product.namaproduk}</h5>
-                  <p class="card-text">Berat: ${product.berat} kg</p>
-                  ${hasIsi ? `<p class="card-text isi">Isi: ${product.isi} Butir</p>` : ''}
-                  <p class="card-text">Harga: Rp ${product.harga}</p>
-                  <a href="https://wa.me/${whatsappNumber}?text=Halo%20saya%20ingin%20memesan%20${encodeURIComponent(product.namaproduk)}%20dengan%20berat%20${product.berat}%20kg${hasIsi ? `%20dan%20isi%20${product.isi}%20butir` : ''}%20dengan%20harga%20Rp%20${product.harga}" class="btn btn-success">Pesan via WhatsApp</a>
-                </div>
-              </div>
-            </div>
-          `;
-          productList.appendChild(productItem);
-        });
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
+  async function fetchProducts(url, elementId, whatsappNumber, hasIsi = false) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error('Failed to fetch data');
     }
-
-    document.addEventListener('DOMContentLoaded', function() {
-      const commonWhatsapp = '628123456789';
-      const quailWhatsapp = '82111519653';
-      
-      fetchProducts('http://localhost/apipeternakandesa/readsapibali.php', 'sapibali', 'sapi1', commonWhatsapp);
-      fetchProducts('http://localhost/apipeternakandesa/readkambingdomba.php', 'kambingdomba', 'kambing3', commonWhatsapp);
-      fetchProducts('http://localhost/apipeternakandesa/readtelurpuyuh.php', 'telurpuyuh', 'puyuh4', quailWhatsapp, true);
-
-      const categoryFilter = document.getElementById('categoryFilter');
-      const sections = document.querySelectorAll('.produk');
-      categoryFilter.addEventListener('change', function() {
-        const selectedCategory = categoryFilter.value;
-        sections.forEach(section => {
-          if (selectedCategory === 'all' || section.id.startsWith(selectedCategory)) {
-            section.style.display = '';
-          } else {
-            section.style.display = 'none';
-          }
-        });
-      });
+    const text = await response.text();
+    const startIndex = text.indexOf('[');
+    const cleanJson = text.substring(startIndex);
+    const data = JSON.parse(cleanJson);
+    const productList = document.getElementById(elementId);
+    productList.innerHTML = '';
+    data.forEach(product => {
+      const productItem = document.createElement('div');
+      productItem.classList.add('col-md-4', 'mb-4');
+      const imageData = `data:image/jpeg;base64,${product.gambar}`; // Adjust the MIME type if necessary
+      productItem.innerHTML = `
+        <div class="card-container">
+          <div class="card">
+            <img src="${imageData}" class="card-img-top" alt="${product.namaproduk}">
+            <div class="card-body">
+              <h5 class="card-title">${product.namaproduk}</h5>
+              <p class="card-text">Berat: ${product.berat} kg</p>
+              ${hasIsi ? `<p class="card-text isi">Isi: ${product.isi} Butir</p>` : ''}
+              <p class="card-text">Harga: Rp ${product.harga}</p>
+              <a href="https://wa.me/${whatsappNumber}?text=Halo%20saya%20ingin%20memesan%20${encodeURIComponent(product.namaproduk)}%20dengan%20berat%20${product.berat}%20kg${hasIsi ? `%20dan%20isi%20${product.isi}%20butir` : ''}%20dengan%20harga%20Rp%20${product.harga}" class="btn btn-success">Pesan via WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      `;
+      productList.appendChild(productItem);
     });
-  </script>
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+  }
 
+  document.addEventListener('DOMContentLoaded', function() {
+  const commonWhatsapp = '628123456789';
+  const quailWhatsapp = '82111519653';
+  
+  fetchProducts('http://localhost/apipeternakandesa/readsapibali.php', 'sapibali', commonWhatsapp);
+  fetchProducts('http://localhost/apipeternakandesa/readkambingdomba.php', 'kambingdomba', commonWhatsapp);
+  fetchProducts('http://localhost/apipeternakandesa/readtelurpuyuh.php', 'telurpuyuh', quailWhatsapp, true);
+
+  const categoryFilter = document.getElementById('categoryFilter');
+  const sections = document.querySelectorAll('.produk');
+  categoryFilter.addEventListener('change', function() {
+    const selectedCategory = categoryFilter.value;
+    sections.forEach(section => {
+      if (selectedCategory === 'all' || section.id.startsWith(selectedCategory)) {
+        section.style.display = '';
+      } else {
+        section.style.display = 'none';
+      }
+    });
+  });
+  });
+  </script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

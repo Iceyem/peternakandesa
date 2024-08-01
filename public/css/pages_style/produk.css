@@ -1,7 +1,7 @@
 /**Content Wrapper**/
 .content-wrapper {
   padding-top: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .background-section {
@@ -162,3 +162,38 @@
   .form-select{
     margin-bottom: -20px;
   }
+
+  .simple-select {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 8px 12px; /* Comfortable padding */
+    font-size: 16px; /* Standard font size */
+    color: #495057; /* Dark gray text color */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .simple-select:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Light blue shadow on focus */
+  }
+  
+  .simple-select option {
+    padding: 8px; /* Padding inside the options */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 600px) {
+    .simple-select {
+      width: 50%; /* Make the select box full-width */
+      margin-top: 10px; /* Reduce top margin */
+      margin-left: 40px; /* Remove left margin */
+      font-size: 14px; /* Slightly smaller font size */
+      padding: 6px 10px; /* Adjust padding for mobile */
+    }
+  }
+  
+  
