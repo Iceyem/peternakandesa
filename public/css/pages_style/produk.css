@@ -154,3 +154,11 @@
     font-size: 1rem;
     color: #666;
   }
+
+  .isi{
+    margin-top: -20px;
+  }
+
+  .form-select{
+    margin-bottom: -20px;
+  }
