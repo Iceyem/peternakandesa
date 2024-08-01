@@ -1,0 +1,196 @@
+/**Content Wrapper**/
+.content-wrapper {
+    padding-top: 120px;
+}
+
+.background-section {
+    position: relative;
+    background-image: url('../../assets/puyuh1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.background-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+}
+
+
+.move-up {
+    margin-top: -15px;
+}
+
+.text-decoration {
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+.font-weight {
+    font-weight: normal;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.left-section h1 {
+    text-align: left;
+}
+
+.right-section .descrip {
+    text-align: right;
+    position: relative;
+    font-size: 20px;
+}
+
+.bordered-box {
+    width: 250px;
+    height: 90px;
+    opacity: 1;
+    position: relative;
+    border: 3px solid rgba(255,255,255,1);
+
+    /* Flexbox properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .left-section, .right-section {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .right-section .descrip {
+        text-align: center;
+    }
+
+    .bordered-box {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+/**end content wrapper**/
+
+/**informasi**/
+.informasi .title {
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #072e48;
+    text-decoration-line: underline; /* Underline the text */
+    text-decoration-thickness: 5px; /* Set the thickness of the underline */
+    text-underline-offset: 10px; /* Set the distance between the text and underline */
+}
+
+.informasi .desc1 {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.pic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.pic1, .pic2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-items: center;
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pic1 {
+    background-image: url("../../assets/puyuh2.jpg");
+}
+
+.pic2 {
+    background-image: url("../../assets/puyuh3.jpg");
+}
+/**end informasi**/
+
+/**informasi**/
+.informasi1 {
+    text-align: left; /* Menengahkan konten secara horizontal */
+}
+
+.informasi1 .title {
+    display: flex;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.underline {
+    margin-bottom: 20px;
+    width: 20%; /* Sesuaikan sesuai kebutuhan */
+    height: 5px; /* Sesuaikan ketebalan garis */
+    background-color: #072e48; /* Sesuaikan dengan warna yang diinginkan */
+    margin-top: 8px; /* Sesuaikan jarak dari elemen di atasnya */
+    border-radius: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    flex: 1; /* Agar judul dapat memanfaatkan ruang yang tersedia */
+    margin-right: 20px;
+  }
+  
+  .right {
+    margin-top: 10px;
+    flex: 1; /* Agar deskripsi dapat memanfaatkan ruang yang tersedia */
+    text-align: justify; /* Untuk mengatur posisi teks deskripsi ke kanan */
+  }
+/**end informasi1**/
+  

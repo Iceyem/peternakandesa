@@ -1,0 +1,72 @@
+body {
+  background-color: #F1F1F1;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/**navbar**/
+.navbar {
+  margin-bottom: 10px;
+  background-color: #072e48;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+}
+
+.navbar-collapse {
+  margin-left: 10px;
+}
+
+.navbar-nav{
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: darkgoldenrod;
+}
+
+.avatar {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.dropdown-item.active[aria-current="page"] {
+  background-color: #072e48;
+  color: darkgoldenrod;
+  pointer-events: none; /* Menonaktifkan hover */
+}
+
+.dropdown-menu{
+  background-color: #072e48;
+}
+
+.dropdown-item{
+  color:white;
+}
+
+.dropdown-item:hover{
+  color: #072e48;
+
+}
+
+.dropdown-item:focus, .dropdown-item:active {
+  background-color: #072e48;
+  color: darkgoldenrod;
+  outline: none;
+}
+/**end navbar**/
+
+
+footer {
+  width: 100%;
+  background-color: #072e48;
+  text-align: center;
+}
+
+.copyright {
+  background-color: darkgoldenrod;
+  padding: 10px;
+  text-align: center;
+}
