@@ -162,8 +162,8 @@
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-  const commonWhatsapp = '628123456789';
-  const quailWhatsapp = '82111519653';
+  const commonWhatsapp = '6281931101107';
+  const quailWhatsapp  = '6287750013310';
   
   fetchProducts('http://localhost/apipeternakandesa/readsapibali.php', 'sapibali', commonWhatsapp);
   fetchProducts('http://localhost/apipeternakandesa/readkambingdomba.php', 'kambingdomba', commonWhatsapp);
