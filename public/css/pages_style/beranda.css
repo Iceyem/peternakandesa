@@ -582,8 +582,9 @@
 
 /**FAQ**/
 .faq {
-
+  margin: 0;
 }
+
 .faq-content {
 	margin: 20px 0px;
 }
