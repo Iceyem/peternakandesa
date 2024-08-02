@@ -32,8 +32,8 @@
                         Tentang Kami
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                        <li><a class="dropdown-item" href="/tentang_kurban">Tentang Makmur Agro</a></li>
-                        <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Makmur Quail</a></li>
+                        <li><a class="dropdown-item" href="/tentang_kurban">Tentang Agro Farm</a></li>
+                        <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,8 +41,8 @@
                         Layanan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Makmur Agro</a></li>
-                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Makmur Quail</a></li>
+                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Agro Farm</a></li>
+                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -63,7 +63,7 @@
         <div class="container background-content">
             <div class="col-lg-6 px-0">
                 <h1 class="display-4 fw-bold fst-italic pt-3 text-white">Peternakan Desa Tegal</h1>
-                <p class="display-7 my-3 text-white">Temukan keunggulan layanan kami di Peternakan Desa Tegal—tempat Anda bisa mendapatkan hewan kurban dan telur puyuh berkualitas tinggi. Makmur Agro dan Makmur Quail adalah peternakan terkemuka yang menyediakan hewan kurban dan telur puyuh berkualitas tinggi. Dengan layanan profesional, dikelola sesuai standar,fresh, dan kami memastikan kepuasan dan kemudahan pelanggan.</p>
+                <p class="display-7 my-3 text-white">Temukan keunggulan layanan kami di Peternakan Desa Tegal—tempat Anda bisa mendapatkan hewan kurban dan telur puyuh berkualitas tinggi. Makmur Agro Farm dan Hasiloka Farm adalah peternakan terkemuka yang menyediakan hewan kurban dan telur puyuh berkualitas tinggi. Dengan layanan profesional, dikelola sesuai standar,fresh, dan kami memastikan kepuasan dan kemudahan pelanggan.</p>
                 <p class="lead"><a href="#informasi" class="fw-bold text-white">Informasi lebih lanjut...</p>
             </div>
                 <div class="col-lg-9 mb-3 pt-3">
@@ -188,23 +188,19 @@
          </div>
          <!-- end choose  section -->
 
-         <section class="testimonial-section">
-  <h2 class="testimonial-desc">Apa Kata Mereka?</h2>
-  <div class="testimonials-container">
-    <div class="arrow left-arrow" onclick="prevTestimonial()">&#10094;</div>
-    <div class="testimonials">
-      <!-- Testimonials will be inserted here dynamically -->
+        <section class="testimonial-section">
+        <h3 class="testimonial-desc h3">Apa Kata Mereka?</h3>
+        <span class="line"></span>
+        <div class="testimonials-container">
+        <div class="arrow left-arrow" onclick="prevTestimonial()">&#10094;</div>
+        <div class="testimonials">
+        <!-- Testimonials will be inserted here dynamically -->
+        </div>
+        <div class="arrow right-arrow" onclick="nextTestimonial()">&#10095;</div>
     </div>
-    <div class="arrow right-arrow" onclick="nextTestimonial()">&#10095;</div>
-  </div>
-</section>
+    </section>
 
-
-
-
-
-
-        <section class="container overlay-text">
+    <section class="container overlay-text">
         <p>
             Tertarik Mengunjungi Kami?
             <br>
@@ -212,20 +208,61 @@
         </p>
         </section>
 
-        <section id="informasi2" class="informasi2">
-            <div class="container">
-                <div class="col-md-12">
-                    <div class="box-title-desc">
-                        <div class="title color-black bdr-btm-gray">
-                            <span>Lokasi Peternakan Desa Tegal</span>
-                        </div>
-                        <div class="description">
-                            <img src="assets/denahmapdesa.jpeg" alt="Peternakan Desa">
-                        </div>
-                    </div>
-                </div>
+    <!-------FAQ Start------->
+<section class="faq section-padding prelative" data-scroll-index='5'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="h3">Frequently Asked Questions</h3>
+          <span class="line"></span>
+          <p class="desc-faq">Berikut beberapa contoh FAQ (Frequently Asked Questions) umum tentang peternakan desa beserta jawabannya:</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Jenis hewan ternak apa saja yang umum di peternakan desa Tegal?</h4>
+              <p>Di peternakan desa Tegal, hewan yang umum dipelihara meliputi:</p>
+              <ul>
+                <li>Sapi: untuk daging (sapi potong) dan susu.</li>
+                <li>Kambing: untuk daging (kambing potong) dan susu.</li>
+                <li>Puyuh: untuk telur.</li>
+                </ul>
             </div>
-        </section>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Bagaimana cara perawatan hewan ternak di Tegal?</h4>
+              <p>Perawatan hewan ternak di Tegal meliputi:</p>
+              <ul>
+                <li>Pakan: Memberikan pakan yang berkualitas seperti rumput hijau, konsentrat, dan suplemen.</li>
+                <li>Air: Menyediakan air bersih dan segar setiap saat.</li>
+                <li>Kesehatan: Melakukan pemeriksaan kesehatan rutin dan vaksinasi sesuai jadwal.</li>
+                <li>Kebersihan: Memastikan kebersihan kandang dan lingkungan sekitar untuk mencegah penyakit.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Apa yang harus diperhatikan dalam pembuatan pakan ternak?</h4>
+              <p>Pembuatan pakan ternak harus memperhatikan:</p>
+              <ul>
+              <li>Keseimbangan Nutrisi: Pakan harus mengandung semua nutrisi penting untuk pertumbuhan dan kesehatan.</li>
+              <li>Kualitas Bahan: Menggunakan bahan pakan yang segar dan bebas dari kontaminan.</li>
+              <li>Kebutuhan Spesifik: Menyesuaikan pakan dengan jenis dan umur hewan.</li>
+            </ul>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Apa manfaat utama peternakan bagi desa Tegal?</h4>
+              <p>Peternakan memberikan banyak manfaat bagi desa Tegal, antara lain:</p>
+              <ul>
+              <li>Sumber Pangan: Menyediakan daging, susu, dan telur bagi masyarakat.</li>
+              <li>Peluang Ekonomi: Membuka peluang kerja dan meningkatkan pendapatan peternak.</li>
+              <li>Pembangunan Desa: Mendukung pembangunan dan kesejahteraan desa melalui kegiatan ekonomi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>    
 
 <!-- Footer -->
 <footer class="text-center text-white">
@@ -285,7 +322,7 @@
     });
 
     // Set the first testimonial to be the 'center' testimonial
-    let currentTestimonial = 0;
+    let currentTestimonial = 1;
     function updateActiveTestimonial() {
       const testimonials = document.querySelectorAll('.testimonial');
       testimonials.forEach((testimonial, index) => {

@@ -412,7 +412,8 @@
 
 /** testi **/
 .testimonial-desc{
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .testimonial-section {
@@ -434,6 +435,7 @@
 }
 
 .testimonials {
+  color: #818992;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,7 +460,7 @@
 }
 
 .testimonial.center {
-  transform: scale(1.2);
+  transform: scale(1.0);
   opacity: 1;
 }
 
@@ -500,11 +502,10 @@
 
   .testimonial {
       min-width: 100%;
-      margin: 10px 0;
   }
 
   .testimonial.center {
-      transform: scale(1);
+      transform: scale(0.9);
       opacity: 1;
   }
 
@@ -578,3 +579,67 @@
 .arrow-right {
   right: 10px;
 }
+
+/**FAQ**/
+.faq {
+
+}
+.faq-content {
+	margin: 20px 0px;
+}
+
+.desc-faq{
+  color: #818992;
+	font-weight:300;
+	margin-top:10px;
+}
+
+.faq-content h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+.faq-content p {
+	color: #818992;
+	font-weight:300;
+	margin-top:10px;
+}
+
+.faq-content li {
+	color: #818992;
+	font-weight:300;
+}
+
+.section-padding {
+	padding:80px 0px;
+}
+
+.sectioner-header {
+	width:69%;
+	margin:0 auto;
+}
+
+.h3 {
+    font-weight: 700;
+}
+
+.prelative {
+	position:relative
+}
+
+.line {
+	height: 2px;
+	width: 50px;
+	background: #072e48;
+	display: block;
+	margin: 20px auto 20px;
+}
+.line::after {
+	content:"";
+	position: absolute;
+	left: 50%;
+	width: 150px;
+	height: 2px;
+	border-bottom: 2px dashed #072e48;
+	margin-left: -75px;
+}
+

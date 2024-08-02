@@ -13,7 +13,7 @@
       integrity="sha512-*******"
       crossorigin="anonymous"
     />
-    <title>Tentang Makmur Quail</title>
+    <title>Tentang Hasiloka Farm</title>
     <link rel="icon" href="../assets/logo1.png" type="image/x-icon">
   </head>
   <body>
@@ -36,8 +36,8 @@
                         Tentang Kami
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                        <li><a class="dropdown-item" href="/tentang_kurban">Tentang Makmur Agro</a></li>
-                        <li><a class="dropdown-item active" aria-current="page">Tentang Makmur Quail</a></li>
+                        <li><a class="dropdown-item" href="/tentang_kurban">Tentang Agro Farm</a></li>
+                        <li><a class="dropdown-item active" aria-current="page">Tentang Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
                         Layanan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Makmur Agro</a></li>
-                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Makmur Quail</a></li>
+                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Agro Farm</a></li>
+                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -63,21 +63,24 @@
     <!--banner-->
     <div class="content-wrapper">
       <div class="container-fluid background-section fst-italic">
-        <h1>Makmur Quail Farm</h1>
+        <h1>Hasiloka Farm</h1>
       </div>
     </div>
 
     <section class="about">
       <div class="container">
         <div class="describe">
+          <div class="logo">
+          <img src="assets/logopuyuh.png" alt="Logo Makmur Agro Farm" class="logopeternakan">
+          </div>
           <h3>Sejarah dan Asal Usul</h3>
           <p>
-            "Makmur Quail Farm" didirikan dengan tujuan untuk memenuhi kebutuhan masyarakat akan telur puyuh yang sehat dan berkualitas. Berawal dari kepedulian akan pentingnya penyediaan protein hewani yang baik, kami mendirikan Makmur Quail Farm dengan visi untuk menjadi solusi terbaik dalam penyediaan telur puyuh yang berkualitas, Serta membuat lapangan pekerjaan baru terkhusus di desa tegal.
+            "Hasiloka Farm" didirikan dengan tujuan untuk memenuhi kebutuhan masyarakat akan telur puyuh yang sehat dan berkualitas. Berawal dari kepedulian akan pentingnya penyediaan protein hewani yang baik, kami mendirikan Hasiloka Farm dengan visi untuk menjadi solusi terbaik dalam penyediaan telur puyuh yang berkualitas, serta menciptakan lapangan pekerjaan baru di desa Tegal.
           </p>
 
           <h3>Awal Berdiri</h3>
           <p>
-            Perjalanan kami dimulai pada tahun 2024, ketika sekelompok pengusaha yang memiliki semangat untuk berkontribusi kepada masyarakat memutuskan untuk mendirikan usaha ini. Dengan berbekal pengalaman dalam bidang peternakan dan komitmen terhadap kualitas, kami mulai merintis Makmur Quail Farm di desa tegal.
+            Perjalanan kami dimulai pada tahun 2024, ketika sekelompok pengusaha yang memiliki semangat untuk berkontribusi kepada masyarakat memutuskan untuk mendirikan usaha ini. Dengan berbekal pengalaman dalam bidang peternakan dan komitmen terhadap kualitas, kami mulai merintis Hasiloka Farm di desa Tegal.
           </p>
 
           <h3>Visi dan Misi</h3>
@@ -92,19 +95,24 @@
 
           <h3>Perkembangan dan Inovasi</h3>
           <p>
-            Seiring berjalannya waktu,Makmur Quail Farm terus berinovasi dan berkembang. Kami memperluas jaringan peternakan kami untuk memastikan ketersediaan telur puyuh yang berkualitas sepanjang tahun. Selain itu, kami juga mengembangkan layanan pemesanan online yang memudahkan pelanggan dalam memilih dan memesan telur puyuh tanpa harus keluar rumah. Kami selalu berkomitmen untuk menjaga kepercayaan yang diberikan oleh pelanggan dengan terus meningkatkan kualitas layanan dan produk kami. Dengan dukungan tim yang profesional dan berpengalaman, serta fasilitas peternakan yang modern, kami yakin dapat memberikan yang terbaik untuk kebutuhan telur puyuh Anda.
+            Seiring berjalannya waktu, Hasiloka Farm terus berinovasi dan berkembang. Kami memperluas jaringan peternakan kami untuk memastikan ketersediaan telur puyuh yang berkualitas sepanjang tahun. Selain itu, kami juga mengembangkan layanan pemesanan online yang memudahkan pelanggan dalam memilih dan memesan telur puyuh tanpa harus keluar rumah. Kami selalu berkomitmen untuk menjaga kepercayaan yang diberikan oleh pelanggan dengan terus meningkatkan kualitas layanan dan produk kami. Dengan dukungan tim yang profesional dan berpengalaman, serta fasilitas peternakan yang modern, kami yakin dapat memberikan yang terbaik untuk kebutuhan telur puyuh Anda.
           </p>
 
           <h3>Komitmen Kami</h3>
           <p>
-            Hasioka Farm berkomitmen untuk selalu mengutamakan kepuasan pelanggan dan kualitas dalam setiap langkah yang kami ambil. Kami berharap dapat menjadi bagian dari kehidupan Anda dan membantu Anda mendapatkan telur puyuh yang sehat dan berkualitas dengan cara yang mudah dan terpercaya.
+            Hasiloka Farm berkomitmen untuk selalu mengutamakan kepuasan pelanggan dan kualitas dalam setiap langkah yang kami ambil. Kami berharap dapat menjadi bagian dari kehidupan Anda dan membantu Anda mendapatkan telur puyuh yang sehat dan berkualitas dengan cara yang mudah dan terpercaya.
           </p>
       <!-- Denah Lokasi -->
       <h3>Peta Mini</h3>
-      <p>Berikut adalah Peta Mini Makmur Quail Farm:</p>
+      <p>Berikut adalah Peta Mini Hasiloka Farm:</p>
       <div class="map">
-        <img src="assets/denahmappuyuh.jpeg" alt="Denah Lokasi Makmur Farm" style="width:100%;max-width:600px;">
+        <img src="assets/denahmappuyuh.jpeg" alt="Denah Lokasi Makmur Farm" class="map-image">
       </div>
+      <h3>Lokasi di Google Maps</h3>
+        <p>Anda juga dapat melihat lokasi kami di peta interaktif di bawah ini:</p>
+        <div class="map-frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.3559152176927!2d106.6998642!3d-6.476524599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69dd3d722a27d7%3A0x37cdd9de95283bc9!2sHasiloka%20Farm%20Indonesia!5e0!3m2!1sen!2sid!4v1722583062320!5m2!1sen!2sid" class="google-map"></iframe>
+        </div>
     </div>
   </div>
 </section>  

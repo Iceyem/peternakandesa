@@ -13,7 +13,7 @@
       integrity="sha512-*******"
       crossorigin="anonymous"
     />
-    <title>Layanan Makmur Quail</title>
+    <title>Layanan Hasiloka Farm</title>
     <link rel="icon" href="assets/logo1.png" type="image/x-icon">
   </head>
   <body>
@@ -36,8 +36,8 @@
                       Tentang Kami
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                      <li><a class="dropdown-item" href="/tentang_kurban">Tentang Makmur Agro</a></li>
-                      <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Makmur Quail</a></li>
+                      <li><a class="dropdown-item" href="/tentang_kurban">Tentang Agro</a></li>
+                      <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Hasiloka</a></li>
                   </ul>
               </li>
               <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
                       Layanan
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                      <li><a class="dropdown-item" href="/layanan_kurban">Layanan Makmur Agro</a></li>
-                      <li><a class="dropdown-item active" aria-current="page">Layanan Makmur Quail</a></li>
+                      <li><a class="dropdown-item" href="/layanan_kurban">Layanan Agro Farm</a></li>
+                      <li><a class="dropdown-item active" aria-current="page">Layanan Hasiloka Farm</a></li>
                   </ul>
               </li>
               <li class="nav-item">
@@ -74,7 +74,7 @@
           </div>
           <div class="right-section">
             <span class="descrip text-white"
-              >Makmur Quail Farm adalah peternakan puyuh berkualitas yang terletak di Kemang, Jawa Barat. 
+              >Hasiloka Farm adalah peternakan puyuh berkualitas yang terletak di Kemang, Jawa Barat. 
               Kami menyediakan beragam layanan untuk memenuhi segala kebutuhan Anda akan telur puyuh.</span
             >
           </div>
@@ -86,7 +86,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
-            <h2 class="title">Makmur Quail Farm</h2>
+            <h2 class="title">Hasiloka Farm</h2>
             <p class="desc1">
               Menyediakan produk telur puyuh yang sehat, terpercaya, dan berkualitas.
             </p>
@@ -105,7 +105,7 @@
         <div class="content">
           <div class="title">Telur Puyuh per Tray</div>
           <span class="right"
-            >Makmur Quail Farm menyediakan telur puyuh dalam kemasan per tray,
+            >Hasiloka Farm menyediakan telur puyuh dalam kemasan per tray,
             dengan isi 90 butir per tray. Satu tray biasanya memiliki berat lebih dari 1 kg.
             Telur puyuh kami dipelihara dengan baik dan dirawat dengan penuh kasih sayang,
             sehingga menghasilkan telur yang berkualitas tinggi dan sehat.</span>
@@ -119,7 +119,7 @@
         <div class="content">
           <div class="title">Pembelian di Tempat</div>
           <span class="right"
-            >Telur puyuh Makmur Quail Farm dapat dibeli langsung di lokasi peternakan kami.
+            >Telur puyuh Hasiloka Farm dapat dibeli langsung di lokasi peternakan kami.
             Kami siap melayani Anda dengan baik untuk memastikan Anda mendapatkan produk
             yang segar dan berkualitas.</span>
         </div>
@@ -132,7 +132,7 @@
         <div class="content">
           <div class="title">Proses Cuci dan Pengemasan</div>
           <span class="right"
-            >Selain menyediakan telur puyuh, Makmur Quail Farm juga memproses telur puyuh yang
+            >Selain menyediakan telur puyuh, Hasiloka Farm juga memproses telur puyuh yang
             dijual dengan mencuci dan mengemas (packing) agar tetap segar. Kami memiliki tim yang
             berpengalaman untuk memastikan telur puyuh dicuci dengan bersih dan dikemas dengan aman
             serta higienis.</span>
@@ -146,7 +146,7 @@
         <div class="content">
           <div class="title">Layanan Lainnya</div>
           <span class="right"
-            >Makmur Quail Farm juga melayani pemesanan telur puyuh dalam jumlah besar atau kecil,
+            >Hasiloka Farm juga melayani pemesanan telur puyuh dalam jumlah besar atau kecil,
             sesuai dengan kebutuhan Anda. Kami siap membantu Anda dalam mendapatkan telur puyuh dengan mudah dan praktis.</span>
         </div>
       </div>

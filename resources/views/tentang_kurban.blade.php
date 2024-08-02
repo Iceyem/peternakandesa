@@ -36,8 +36,8 @@
                         Tentang Kami
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                        <li><a class="dropdown-item active" aria-current="page">Tentang Makmur Agro</a></li>
-                        <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Makmur Quail</a></li>
+                        <li><a class="dropdown-item active" aria-current="page">Tentang Agro Farm</a></li>
+                        <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
                         Layanan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Makmur Agro</a></li>
-                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Makmur Quail</a></li>
+                        <li><a class="dropdown-item" href="/layanan_kurban">Layanan Agro Farm</a></li>
+                        <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Hasiloka Farm</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -71,7 +71,7 @@
       <div class="container">
         <div class="describe">
           <div class="logo">
-          <img src="assets/logo.png" alt="Logo Makmur Agro Farm" class="logopeternakan">
+          <img src="assets/logokurban.png" alt="Logo Makmur Agro Farm" class="logopeternakan">
           </div>
           <h3>Sejarah dan Asal Usul</h3>
           <p>
@@ -103,12 +103,17 @@
           <p>
             Komitmen kami terhadap kualitas, kebersihan, dan kesejahteraan hewan menjadikan Makmur Agro Farm sebagai pilihan terbaik bagi mereka yang mencari hewan kurban dan susu kambing terbaik di Bogor dan sekitarnya.
           </p>
-      <!-- Denah Lokasi -->
-      <h3>Peta Mini</h3>
-      <p>Berikut adalah Peta Mini Makmur Agro:</p>
-      <div class="map">
-        <img src="assets/denahmapkurban.jpeg" alt="Denah Lokasi Makmur Farm" style="width:100%;max-width:600px;">
-      </div>
+          <!-- Denah Lokasi -->
+          <h3>Peta Mini</h3>
+          <p>Berikut adalah Peta Mini Makmur Agro:</p>
+          <div class="map">
+        <img src="assets/denahmapkurban.jpeg" alt="Denah Lokasi Makmur Farm" class="map-image">
+        </div>
+        <h3>Lokasi di Google Maps</h3>
+        <p>Anda juga dapat melihat lokasi kami di peta interaktif di bawah ini:</p>
+        <div class="map-frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2676155641543!2d106.69937367410009!3d-6.487756663428941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69dd40743a1643%3A0xf7f305751e8c2e00!2sMakmur%20Farm%20Sentra%20Aqiqah%20And%20Sacrifice!5e0!3m2!1sen!2sid!4v1722577562756!5m2!1sen!2sid" class="google-map"></iframe>
+        </div>
     </div>
   </div>
 </section>

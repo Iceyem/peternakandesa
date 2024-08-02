@@ -30,8 +30,8 @@
               Tentang Kami
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-              <li><a class="dropdown-item" href="/tentang_kurban">Tentang Makmur Agro</a></li>
-              <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Makmur Quail</a></li>
+              <li><a class="dropdown-item" href="/tentang_kurban">Tentang Agro Farm</a></li>
+              <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Hasiloka Farm</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -39,8 +39,8 @@
               Layanan
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              <li><a class="dropdown-item" href="/layanan_kurban">Layanan Makmur Agro</a></li>
-              <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Makmur Quail</a></li>
+              <li><a class="dropdown-item" href="/layanan_kurban">Layanan Agro Farm</a></li>
+              <li><a class="dropdown-item" href="/layanan_puyuh">Layanar Hasiloka Farm</a></li>
             </ul>
           </li>
           <li class="nav-item">

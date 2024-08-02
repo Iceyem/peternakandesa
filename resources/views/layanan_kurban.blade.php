@@ -13,7 +13,7 @@
       integrity="sha512-*******"
       crossorigin="anonymous"
     />
-    <title>Layanan Makmur Agro</title>
+    <title>Layanan Agro Farm</title>
     <link rel="icon" href="assets/logo1.png" type="image/x-icon">
   </head>
   <body>
@@ -36,8 +36,8 @@
                       Tentang Kami
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                      <li><a class="dropdown-item" href="/tentang_kurban">Tentang Makmur Agro</a></li>
-                      <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Makmur Quail</a></li>
+                      <li><a class="dropdown-item" href="/tentang_kurban">Tentang Agro Farm</a></li>
+                      <li><a class="dropdown-item" href="/tentang_puyuh">Tentang Hasiloka Farm</a></li>
                   </ul>
               </li>
               <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
                       Layanan
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                      <li><a class="dropdown-item active" aria-current="page">Layanan Makmur Agro</a></li>
-                      <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Makmur Quail</a></li>
+                      <li><a class="dropdown-item active" aria-current="page">Layanan Agro Farm</a></li>
+                      <li><a class="dropdown-item" href="/layanan_puyuh">Layanan Hasiloka Farm</a></li>
                   </ul>
               </li>
               <li class="nav-item">
@@ -136,7 +136,7 @@
         <div class="content">
           <div class="title">Penjualan Pupuk Organik</div>
           <span class="right"
-            >Makmur Farm Agro Aqiqah dan Qurban, menyediakan pupuk organik yang 
+            >Makmur Agro Farm Aqiqah dan Qurban, menyediakan pupuk organik yang 
             dihasilkan dari kotoran hewan ternak. Pupuk kami ramah lingkungan dan 
             meningkatkan kesuburan tanah, ideal untuk pertanian organik dan berkualitas tinggi.</span
           >
