@@ -224,9 +224,9 @@
               <h4>Jenis hewan ternak apa saja yang umum di peternakan desa Tegal?</h4>
               <p>Di peternakan desa Tegal, hewan yang umum dipelihara meliputi:</p>
               <ul>
-                <li>Sapi: untuk daging (sapi potong) dan susu.</li>
-                <li>Kambing: untuk daging (kambing potong) dan susu.</li>
-                <li>Puyuh: untuk telur.</li>
+                <li>Sapi: Untuk daging (sapi potong) dan susu.</li>
+                <li>Kambing: Untuk daging (kambing potong) dan susu.</li>
+                <li>Puyuh: Untuk telur.</li>
                 </ul>
             </div>
             <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
