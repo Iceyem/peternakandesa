@@ -68,7 +68,7 @@
             </div>
                 <div class="col-lg-9 mb-3 pt-3">
                     <p class="lead move-up">
-                        <a href="https://maps.app.goo.gl/o3VR7Q8SkKHSDuuW9" class="fas fa-map-marker-alt text-white text-decoration">
+                        <a href="https://maps.app.goo.gl/o3VR7Q8SkKHSDuuW9" class="location-link fas fa-map-marker-alt text-white text-decoration">
                             <span class="ms-1 text-white display-10 small-font font-weight">RT.03/RW.04, Tegal, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310</span>
                         </a>
                     </p>                            
@@ -175,7 +175,6 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <div class="choose_img">
                         <img id="slideshow" src="assets/slides/slide (1).jpeg"/>
                         <div class="arrow-left"><i class="fas fa-chevron-left"></i></div>
@@ -184,7 +183,6 @@
                   </div>
                </div>
             </div>
-         </div>
          </div>
          <!-- end choose  section -->
 

@@ -71,7 +71,7 @@
       <span class="pertanyaan">Punya pertanyaan lebih lanjut?</span>
       <span class="kirim"
         >Jangan ragu untuk menghubungi kami, silakan kirim pesan email kepada kami di peternakandesategal@gmail.com <br>
-        atau hubungi kami melalui WhatsApp di nomor +62 821-1151-9653. </span
+        atau hubungi kami melalui WhatsApp di nomor +62 819-3110-1107. </span
       >
       <span class="pesan"
         >Kami akan siap untuk menghubungi Anda dalam waktu dekat!</span
@@ -80,7 +80,7 @@
 
     <div class="klik">
       <a class="email" href="mailto:peternakandesategal@gmail.com">Email</a>
-      <a class="whatsapp" href="https://wa.me/6282111519653?text=Halo">Whatsapp</a>
+      <a class="whatsapp" href="https://wa.me/6281931101107?text=Halo">Whatsapp</a>
     </div>
 
     <!--next contents-->

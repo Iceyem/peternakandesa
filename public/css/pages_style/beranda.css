@@ -1,9 +1,10 @@
 /**Content Wrapper**/
-.content-wrapper {
+  .content-wrapper {
     padding-top: 120px;
   }
   
   .background-section {
+    padding-bottom: 40px;
     position: relative;
     background-image: url('../../assets/pemandangan1beranda.jpg');
     background-size: cover;
@@ -32,6 +33,10 @@
     margin-top: -15px;
   }
   
+  .lead.move-up a span {
+    font-family: "Times New Roman", Times, serif;
+  }
+
   .text-decoration{
     text-decoration: none; 
     font-size: 20px;

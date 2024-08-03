@@ -115,62 +115,81 @@
     padding: 20px 0;
   }
 
- /* Style untuk card produk */
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+/* Style untuk card produk */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.card {
+  width: 80%;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.isi {
+  margin-top: -20px;
+}
+
+.form-select {
+  margin-bottom: -20px;
+}
+
+/* Penyesuaian untuk layar lebih kecil */
+@media screen and (max-width: 768px) {
   .card {
-    width: 80%;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    width: calc(50% - 20px);
   }
+}
 
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-
-  .card-img-top {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .card-body {
-    padding: 15px;
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px);
+    margin: 10px 5px;
   }
 
   .card-title {
-    font-size: 1.25rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
   }
 
   .card-text {
-    font-size: 1rem;
-    color: #666;
+    font-size: 0.9rem;
   }
 
-  .isi {
-    margin-top: -20px;
+  .card-body {
+    padding: 10px;
   }
-
-  .form-select {
-    margin-bottom: -20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .card {
-      width: calc(33.333% - 20px);
-      margin: 10px;
-    }
-  }
-  /**end card produk**/
+}
+/**end produk**/
 
 
   .simple-select {
